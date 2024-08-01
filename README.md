@@ -1,0 +1,1 @@
+To run test, use the npm run apitest command in the terminal (command can be found in the package.json file).

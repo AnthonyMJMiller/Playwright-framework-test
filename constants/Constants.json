@@ -1,0 +1,12 @@
+{
+    "apiTestData":{
+    "NEW_USER_SOURCE":"public/v2/users",
+    "USER_TOKEN":"a7dbdc81392f3e771a2bb2b75d9c671517ad302fe498b981a88df03e8ff88adf",
+    "okResponse": 200,
+    "UserID":7263121,
+    "name": "REPO",
+    "email": "4pYz@gmail.com",
+    "gender": "male",
+    "status": "active"
+    }
+}
