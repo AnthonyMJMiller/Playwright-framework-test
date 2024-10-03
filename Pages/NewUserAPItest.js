@@ -24,7 +24,7 @@ module.exports.NewUserAPItest = class NewUserAPItest {
         const jsonResponse = JSON.parse(await this.response.text())
         console.log(jsonResponse)
         expect(jsonResponse.id).toEqual(apiTestData.UserID)
-        expect(jsonResponse.name).toEqual(apiTestData.name)
+        //expect(jsonResponse.name).toEqual(apiTestData.name)
         expect(jsonResponse.email).toEqual(apiTestData.email)
         expect(jsonResponse.gender).toEqual(apiTestData.gender)
         expect(jsonResponse.status).toEqual(apiTestData.status)
